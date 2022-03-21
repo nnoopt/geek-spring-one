@@ -39,7 +39,6 @@ public class ProductServlet extends HttpServlet {
 //        resp.getWriter().println("<p>param1: " + req.getParameter("param1") + "</p>");
 //        resp.getWriter().println("<p>param2: " + req.getParameter("param2") + "</p>");
 
-
         PrintWriter wr = resp.getWriter();
         wr.println("<table>");
         wr.println("<tr>");
